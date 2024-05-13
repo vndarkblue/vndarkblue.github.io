@@ -16,6 +16,15 @@
     /* Adjust secondary background for dark mode */
 }
 
+.dark-mode .card:before
+{
+    background-color: #8E24AA;
+}
+
+.dark-mode .card:after{
+    background-color: #E1BEE7;
+}
+
 body {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -160,4 +169,12 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.round{
+    border-radius: 34px;
+}
+
+.round:before{
+    border-radius: 34px;
 }
