@@ -318,8 +318,8 @@ button:focus-visible {
 }
 
 .about-me__avatar img {
-  width: 128px;
-  height: 128px;
+  width: 148px;
+  height: 148px;
   border-radius: 50%;
   border: 2px solid var(--accent-strong);
   object-fit: cover;
