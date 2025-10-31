@@ -262,6 +262,14 @@ watch(() => route.path, (path) => {
     view.value = 'tools'
   }
 }, { immediate: true })
+
+watch(() => currentTool.value, (tool) => {
+  if (tool) {
+    document.title = `${tool.title} - DarkBlue's Toolbox`
+  } else {
+    document.title = "DarkBlue's Toolbox"
+  }
+}, { immediate: true })
 </script>
 
 <template>
